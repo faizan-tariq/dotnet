@@ -1,8 +1,8 @@
 # dotnet
 
-Started off from: https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/install
-Install DotNet SDK from: https://dotnet.microsoft.com/download/dotnet-core/3.1
-Install Visual Studio for Mac from: https://visualstudio.microsoft.com/vs/mac/
+- Started off from: https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/install
+- Install DotNet SDK from: https://dotnet.microsoft.com/download/dotnet-core/3.1
+- Install Visual Studio for Mac from: https://visualstudio.microsoft.com/vs/mac/
 
 DotNet CLI:
 ````
