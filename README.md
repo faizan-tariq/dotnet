@@ -4,18 +4,18 @@
 - Install DotNet SDK from: https://dotnet.microsoft.com/download/dotnet-core/3.1
 - Install Visual Studio for Mac from: https://visualstudio.microsoft.com/vs/mac/
 
-### DotNet CLI:
+## DotNet CLI:
 ````
 dotnet tool install --global dotnet-ef
 ````
 
-### DB Migration:
+## DB Migration:
 ````
 dotnet ef migrations add InitialCreate
 dotnet ef database update  
 ````
 
-### Entity Framework:
+## Entity Framework:
 - Create Model Class
 - Use Scaffolding to generate Database Context and Controller 
 
@@ -23,12 +23,12 @@ dotnet ef database update
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s2.png" width="600">
 
 
-### Generating Swagger Documentation using NSwag
+## Generating Swagger Documentation using NSwag
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio-mac
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s3.png" width="600">
 
 
-### Use of dependency injection
+## Use of dependency injection
 https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/dependency-injection?view=aspnetcore-3.1
 
 Dependency Injection in Controllers
@@ -43,7 +43,7 @@ public VideoController(AppContext context, ITimeStamp timestamp)
 }
 ````
 
-### API Versioning
+## API Versioning
 Install-Package Microsoft.AspNetCore.Mvc.Versioning
 
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s4.png" width="600">
@@ -66,7 +66,7 @@ Updated URL: https://localhost:5001/api/v1.0/video
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s6.png" width="800">
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s7.png" width="1000">
 
-Changes in Swagger integration after API versioning:
+## Changes in Swagger integration after API versioning:
 ````
  services.AddApiVersioning(options =>
 {
@@ -83,4 +83,4 @@ services.AddVersionedApiExplorer(options =>
 
 services.AddSwaggerDocument();
 ````
-
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s8.png" width="600">
