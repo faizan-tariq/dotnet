@@ -52,7 +52,13 @@ Install-Package Microsoft.AspNetCore.Mvc.Versioning
 services.AddApiVersioning();
 ````
 
-
-
-
+Now if you hit your api: https://localhost:5001/api/video
+````
+{"error":{"code":"ApiVersionUnspecified","message":"An API version is required, but was not specified.","innerError":null}}
+````
+Change Route to: 
+````
+[Route("api/v{version:apiVersion}/[controller]")]
+````
+Updated URL: https://localhost:5001/api/v1.0/video
 
