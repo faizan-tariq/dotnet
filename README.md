@@ -62,4 +62,8 @@ Change Route to:
 ````
 Updated URL: https://localhost:5001/api/v1.0/video
 
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s5.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s6.png" width="800">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s7.png" width="1000">
+
 
