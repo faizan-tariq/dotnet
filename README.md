@@ -26,4 +26,4 @@ dotnet ef database update
 ### Generating Swagger Documentation using NSwag
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio-mac
 
-
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s3.png" width="600">
