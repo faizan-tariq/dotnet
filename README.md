@@ -62,3 +62,14 @@ Change Route to:
 ````
 Updated URL: https://localhost:5001/api/v1.0/video
 
+Setting a Default Version:
+````
+ services.AddApiVersioning(config =>
+{
+    config.DefaultApiVersion = new ApiVersion(1, 0);
+    config.AssumeDefaultVersionWhenUnspecified = true;
+});
+````
+
+
+
