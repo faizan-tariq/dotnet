@@ -43,5 +43,16 @@ public VideoController(AppContext context, ITimeStamp timestamp)
 }
 ````
 
+### API Versioning
+Install-Package Microsoft.AspNetCore.Mvc.Versioning
+
+
+
+````
+services.AddApiVersioning();
+````
+
+
+
 
 
