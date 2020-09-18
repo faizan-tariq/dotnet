@@ -66,4 +66,21 @@ Updated URL: https://localhost:5001/api/v1.0/video
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s6.png" width="800">
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s7.png" width="1000">
 
+Changes in Swagger integration after API versioning:
+````
+ services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ApiVersionReader = new UrlSegmentApiVersionReader();
+    options.ReportApiVersions = true;
+});
+
+
+services.AddVersionedApiExplorer(options =>
+ {
+     options.SubstituteApiVersionInUrl = true;
+ });
+
+services.AddSwaggerDocument();
+````
 
