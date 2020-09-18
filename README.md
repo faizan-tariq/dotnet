@@ -83,4 +83,4 @@ services.AddVersionedApiExplorer(options =>
 
 services.AddSwaggerDocument();
 ````
-<img src="https://github.com/faizan-tariq/dotnet/blob/master/s8.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s8.png" width="1000">
