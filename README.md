@@ -19,5 +19,5 @@ dotnet ef database update
 - Create Model Class
 - Use Scaffolding to generate Database Context and Controller 
 
-<img src="https://github.com/faizan-tariq/dotnet/blob/master/s1.png" width="400">
-<img src="https://github.com/faizan-tariq/dotnet/blob/master/s2.png" width="400">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s1.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/s2.png" width="600">
