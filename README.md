@@ -84,3 +84,12 @@ services.AddVersionedApiExplorer(options =>
 services.AddSwaggerDocument();
 ````
 <img src="https://github.com/faizan-tariq/dotnet/blob/master/s8.png" width="1000">
+
+
+## In-App Authentication (Login/Register)
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/a1.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/a2.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/a3.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/a4.png" width="600">
+<img src="https://github.com/faizan-tariq/dotnet/blob/master/a5.png" width="600">
+
